@@ -37,3 +37,7 @@ which will return
 error: Logged Text
 ```
 in the console.
+
+## Unit Testing
+
+To unit test the package, run `mocha`
