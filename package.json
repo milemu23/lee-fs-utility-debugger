@@ -1,0 +1,26 @@
+{
+  "name": "lee-fs-utility-debugger",
+  "version": "1.0.0",
+  "description": "A small debugging utlity for NPM",
+  "main": "lib/main.js",
+  "dependencies": {
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leesaenz/lee-fs-utility-debugger.git"
+  },
+  "keywords": [
+    "debugger"
+  ],
+  "author": "Lee Saenz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leesaenz/lee-fs-utility-debugger/issues"
+  },
+  "homepage": "https://github.com/leesaenz/lee-fs-utility-debugger#readme"
+}
