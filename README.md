@@ -41,3 +41,9 @@ in the console.
 ## Unit Testing
 
 To unit test the package, run `mocha`
+
+## Code Deploy
+
+<img src="https://codeship.com/projects/YOUR_PROJECT_UUID/status?branch=master" alt="Codeship Status for codeship/documentation" />
+
+The repo will auto deploy to Codeship once the master branch is pushed.
