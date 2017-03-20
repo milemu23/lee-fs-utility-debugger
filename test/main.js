@@ -1,4 +1,5 @@
 const logger = require('../lib/main.js');
+const expect = require('chai').expect;
 
 // Testing that logs are output
 describe('Logging Tests', () => {

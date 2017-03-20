@@ -1,5 +1,13 @@
 # Lee FS Utility Debugger
 
+- [Installation](#installation)
+- [Setup](#setup)
+- [Use](#use)
+- [Info Logging](#info-logging)
+- [Error Logging](#error-logging)
+- [Unit Testing](#unit-testing)
+- [Code Deploy](#code-deploy)
+
 This is a simple NPM package that uses Winston to create a custom logging utility for my Node app.  The purpose is to defer logging from the console.log() function.
 
 ## Installation
