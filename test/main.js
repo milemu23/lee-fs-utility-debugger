@@ -11,4 +11,21 @@ describe('Logging Tests', () => {
   it('should log an error request', () => {
     logger.error('This is an error log');
   });
+  const version = require('../lib/main').updateVersion;
+  describe('Lee FS Utility Debugger Test', () => {
+    describe('Test version change function', () => {
+      it('Update major version', () => {
+        const newVersion = version('1.3.2', 'major');
+        expect(newVersion).to.equal('2.0.0');
+      });
+      it('Update minor version', () => {
+        const newVersion = version('1.3.2', 'minor');
+        expect(newVersion).to.equal('1.4.0');
+      });
+      it('Update patch version', () => {
+        const newVersion = version('1.3.2', 'patch');
+        expect(newVersion).to.equal('1.3.3');
+      });
+    });
+  });
 });
