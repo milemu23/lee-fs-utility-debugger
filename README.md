@@ -97,6 +97,7 @@ If your current version is `1.10.0`,
 
 ## Code Deploy
 
-<img src="https://codeship.com/projects/YOUR_PROJECT_UUID/status?branch=master" alt="Codeship Status for codeship/documentation" />
+Master: <img src="https://codeship.com/projects/b49452f0-efe0-0134-080a-3eb3ee5cdf25/status?branch=master" alt="Codeship Status for codeship/documentation" />
+Dev: <img src="https://codeship.com/projects/b49452f0-efe0-0134-080a-3eb3ee5cdf25/status?branch=dev" alt="Codeship Status for codeship/documentation" />
 
 The repo will auto deploy to Codeship once the master branch is pushed.
