@@ -1,5 +1,6 @@
 const logger = require('../lib/main.js');
 const expect = require('chai').expect;
+const version = require('../lib/main').updateVersion;
 
 // Testing that logs are output
 describe('Logging Tests', () => {
@@ -11,7 +12,6 @@ describe('Logging Tests', () => {
   it('should log an error request', () => {
     logger.error('This is an error log');
   });
-  const version = require('../lib/main').updateVersion;
   describe('Lee FS Utility Debugger Test', () => {
     describe('Test version change function', () => {
       it('Update major version', () => {
