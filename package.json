@@ -1,6 +1,6 @@
 {
   "name": "lee-fs-utility-debugger",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "description": "A small debugging utlity for NPM",
   "main": "lib/main.js",
   "dependencies": {

@@ -1,23 +1,8 @@
 const winston = require('winston');
 
-const path = require('./path.js');
-
 const logger = new winston.Logger({
   transports: [
-    new (winston.transports.Console)({
-      handleExceptions: true,
-      json: true,
-    }),
-    new (winston.transports.File)({
-      name: 'info',
-      filename: path.infoPath,
-      level: 'debug',
-    }),
-    new (winston.transports.File)({
-      name: 'error',
-      filename: path.errorPath,
-      level: 'error',
-    }),
+    new (winston.transports.Console)(),
   ],
   exitOnError: false,
 });
@@ -25,7 +10,7 @@ const logger = new winston.Logger({
 module.exports = logger;
 module.exports.stream = {
   write: (message) => {
-    logger.info(message);
+    logger.log(message);
   },
 };
 

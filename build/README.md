@@ -15,10 +15,6 @@ This is a simple NPM package that uses Winston to create a custom logging utilit
 
 To install, `npm install lee-fs-utility-debugger`
 
-## Setup
-
-To set up the logs, create them in `src/logs/app.log` and `src/logs/error.log`
-
 ## Use
 
 ### Info Logging
@@ -97,6 +93,7 @@ If your current version is `1.10.0`,
 
 ## Code Deploy
 
-<img src="https://codeship.com/projects/YOUR_PROJECT_UUID/status?branch=master" alt="Codeship Status for codeship/documentation" />
+Master: <img src="https://codeship.com/projects/b49452f0-efe0-0134-080a-3eb3ee5cdf25/status?branch=master" alt="Codeship Status for codeship/documentation" />
+Dev: <img src="https://codeship.com/projects/b49452f0-efe0-0134-080a-3eb3ee5cdf25/status?branch=dev" alt="Codeship Status for codeship/documentation" />
 
-The repo will auto deploy to Codeship once the master branch is pushed.
+The repo will auto deploy to Codeship and run CI tests once a branch is pushed.
